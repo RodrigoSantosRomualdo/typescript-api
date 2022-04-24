@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
-/* eslint-disable no-undef */
+/* eslint-disable no-undef */const { resolve } = require('path');
 
-const { resolve } = require('path');
 const root = resolve(__dirname, '..');
 const rootConfig = require(`${root}/jest.config.js`);
 
